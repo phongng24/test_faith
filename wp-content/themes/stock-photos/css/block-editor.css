@@ -1,0 +1,31 @@
+.stock-photos-banner-section h1,.stock-photos-banner-section .wp-block-button__link,.stock-photos-choices-section h2, .stock-photos-banner-section .stock-photos-featured-section-image p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.stock-photos-banner-section p,.stock-photos-featured-section-image .wp-block-button__link{
+   font-family: 'Comfortaa', cursive; 
+}
+/*stock-photos-aboutus-section*/
+.stock-photos-choices-section .wp-block-button__link:hover{
+    background:#ff4848 !important;
+    color: #fff !important;
+    box-shadow: none;
+}
+.stock-photos-banner-section {
+    padding: 0;
+}
+.stock-photos-banner-section .stock-photos-featured-section-column, .stock-photos-featured-section-group p, .stock-photos-banner-section .stock-photos-columns-section  {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    gap: 1em !important;
+}
+.stock-photos-banner-section .stock-photos-featured-section-image {
+    position: relative;
+}
+.stock-photos-featured-section-group{
+    backdrop-filter: blur(10px);
+}
+.stock-photos-featured-section-image p{
+    bottom: 40%;
+    font-weight: 600;
+    margin:  0 !important;
+}

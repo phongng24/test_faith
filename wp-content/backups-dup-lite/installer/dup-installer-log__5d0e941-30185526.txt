@@ -1,0 +1,1039 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 07:01:29
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Darwin
+PHP VERSION_________: 7.4.33                                |8.0.28
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.0.28 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.0.28 mod_perl/2.0.12 Perl/v5.34.1
+DOC ROOT____________: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+REQUEST URL_________: "http://localhost/faith_arts"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: https://pnsignature-cloud.ibrave.host/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+URL_NEW_____________: "http://localhost/faith_arts"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts/20231130_faithsarts_[HASH]_20231130185526_archive.zip"
+ARCHIVE SIZE________: 184.2MB
+CREATED_____________: 2023-11-30 18:55:26
+WP VERSION__________: 6.4.1
+DUP VERSION_________: 1.5.7.1
+LICENSE_____________: Free version
+DB VERSION__________: 10.4.26
+DB FILE SIZE________: 1.98MB
+DB TABLES___________: 13
+DB ROWS_____________: 837
+URL HOME____________: https://pnsignature-cloud.ibrave.host
+URL CORE____________: https://pnsignature-cloud.ibrave.host
+URL CONTENT_________: https://pnsignature-cloud.ibrave.host/wp-content
+URL UPLOAD__________: https://pnsignature-cloud.ibrave.host/wp-content/uploads
+URL PLUGINS_________: https://pnsignature-cloud.ibrave.host/wp-content/plugins
+URL MU PLUGINS______: https://pnsignature-cloud.ibrave.host/wp-content/mu-plugins
+URL THEMES__________: https://pnsignature-cloud.ibrave.host/wp-content/themes
+PATH HOME___________: /home/sites/30a/b/bc4f52052a/public_html
+PATH ABS____________: /home/sites/30a/b/bc4f52052a/public_html
+PATH WPCONFIG_______: /home/sites/30a/b/bc4f52052a/public_html
+PATH WPCONTENT______: /home/sites/30a/b/bc4f52052a/public_html/wp-content
+PATH UPLOADS________: /home/sites/30a/b/bc4f52052a/public_html/wp-content/uploads
+PATH PLUGINS________: /home/sites/30a/b/bc4f52052a/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/sites/30a/b/bc4f52052a/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/sites/30a/b/bc4f52052a/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "pnsignature-cloud.ibrave.host/"
+
+PLUGINS
+PLUGIN [SLUG:copy-delete-posts/copy-delete-posts.php           ][ON:true ]  Copy & Delete Posts
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:loginpress/loginpress.php                         ][ON:true ]  LoginPress - Customizing the WordPress Login Screen.
+PLUGIN [SLUG:responsive-lightbox/responsive-lightbox.php       ][ON:true ]  Responsive Lightbox & Gallery
+PLUGIN [SLUG:to-top/to-top.php                                 ][ON:true ]  To Top
+PLUGIN [SLUG:wp-stack-cache.php                                ][ON:false]  StackCache
+
+********************************************************************************
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.06675]  MESSAGE:END RENDER PAGE
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.05766]  MESSAGE:END RENDER PAGE
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00099]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00026]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+--------------------------------------
+LOG-TIME[DELTA:   0.01402]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00067]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Version Mismatch" RESULT: soft warning
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00573]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.00371]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00189]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00023]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Privileges: User Visibility" RESULT: failed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: skip
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: User Resources" RESULT: skip
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: User Table Access" RESULT: skip
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: skip
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: skip
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Character Set and Collation Support" RESULT: skip
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: skip
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: skip
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Prefix too long" RESULT: skip
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.05278]  MESSAGE:END RENDER PAGE
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00095]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00027]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+--------------------------------------
+LOG-TIME[DELTA:   0.01214]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "PHP Version Mismatch" RESULT: soft warning
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00490]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.00376]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00145]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00037]  MESSAGE:TEST "Create New Database" RESULT: passed
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: skip
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00127]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+DB QUERY [ERROR][/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/database/class.db.php:645] MSG: Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100428. Please use mysql_upgrade to fix this error
+	SQL: SHOW PROCEDURE STATUS
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/validation/class.validation.database.service.php[608]
+TRACE[2] CLASS___: DUPX_Validation_database_service->dbHasProcedures FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/validation/class.validation.database.service.php[481]
+TRACE[3] CLASS___: DUPX_Validation_database_service->dbCheckUserPerms FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/validation/database-tests/class.validation.test.db.user.perms.php[28]
+TRACE[4] CLASS___: DUPX_Validation_test_db_user_perms->runTest FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[5] CLASS___: DUPX_Validation_abstract_item->test FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[6] CLASS___: DUPX_Validation_manager->runTests FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[7] CLASS___: DUPX_Validation_manager->getValidateData FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[9] CLASS___: DUPX_Ctrl_ajax::controller FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/main.installer.php[56]
+
+DB QUERY [ERROR][/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/database/class.db.php:645] MSG: Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100428. Please use mysql_upgrade to fix this error
+	SQL: SHOW FUNCTION STATUS
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/validation/class.validation.database.service.php[625]
+TRACE[2] CLASS___: DUPX_Validation_database_service->dbHasFunctions FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/validation/class.validation.database.service.php[489]
+TRACE[3] CLASS___: DUPX_Validation_database_service->dbCheckUserPerms FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/validation/database-tests/class.validation.test.db.user.perms.php[28]
+TRACE[4] CLASS___: DUPX_Validation_test_db_user_perms->runTest FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[5] CLASS___: DUPX_Validation_abstract_item->test FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[6] CLASS___: DUPX_Validation_manager->runTests FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[7] CLASS___: DUPX_Validation_manager->getValidateData FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[9] CLASS___: DUPX_Ctrl_ajax::controller FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/main.installer.php[56]
+
+LOG-TIME[DELTA:   0.02000]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00069]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00115]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: skip
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00045]  MESSAGE:TEST "Database cleanup" RESULT: passed
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 07:03:38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Faith's Arts"
+HOME URL NEW________: "http://localhost/faith_arts"
+SITE URL NEW________: "http://localhost/faith_arts"
+CONTENT URL NEW_____: "http://localhost/faith_arts/wp-content"
+UPLOAD URL NEW______: "http://localhost/faith_arts/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/faith_arts/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/faith_arts/wp-content/mu-plugins"
+HOME PATH NEW_______: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+SITE PATH NEW_______: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+CONTENT PATH NEW____: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content"
+UPLOAD PATH NEW_____: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/uploads"
+PLUGINS PATH NEW____: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer"
+	FILE: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts/20231130_faithsarts_[HASH]_20231130185526_installer-backup.php"
+	FILE: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts/20231130_faithsarts_[HASH]_20231130185526_archive.zip"
+	FILE: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts/installer.php"
+	FILE: "/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer-bootlog__5d0e941-30185526.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20231130_faithsarts_[HASH]_20231130185526_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+FILE EXTRACTION: done processing last file in list of 7184
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 07:03:42 - RUNTIME: 5.3731 sec. - Files processed: 6,577 of 6,577
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 56_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 07:03:42
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "56_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "56_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: 56_commentmeta]
+TABLE "56_comments"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: 56_comments]
+TABLE "56_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: 56_duplicator_packages]
+TABLE "56_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: 56_links]
+TABLE "56_options"______________________________________[ROWS:     204] [EXTRACT|REPLACE] [INST NAME: 56_options]
+TABLE "56_postmeta"_____________________________________[ROWS:     402] [EXTRACT|REPLACE] [INST NAME: 56_postmeta]
+TABLE "56_posts"________________________________________[ROWS:     179] [EXTRACT|REPLACE] [INST NAME: 56_posts]
+TABLE "56_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: 56_termmeta]
+TABLE "56_terms"________________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: 56_terms]
+TABLE "56_term_relationships"___________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: 56_term_relationships]
+TABLE "56_term_taxonomy"________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: 56_term_taxonomy]
+TABLE "56_usermeta"_____________________________________[ROWS:      41] [EXTRACT|REPLACE] [INST NAME: 56_usermeta]
+TABLE "56_users"________________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: 56_users]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.28 -- Build Server: 10.4.26
+FILE SIZE:	dup-database__[HASH].sql (851.75KB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	125
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "56_commentmeta"__________________________________[ROWS:     0]
+TABLE "56_comments"_____________________________________[ROWS:     1]
+TABLE "56_duplicator_packages"__________________________[ROWS:     1]
+TABLE "56_links"________________________________________[ROWS:     0]
+TABLE "56_options"______________________________________[ROWS:   204]
+TABLE "56_postmeta"_____________________________________[ROWS:   402]
+TABLE "56_posts"________________________________________[ROWS:   179]
+TABLE "56_term_relationships"___________________________[ROWS:     8]
+TABLE "56_term_taxonomy"________________________________[ROWS:     3]
+TABLE "56_termmeta"_____________________________________[ROWS:     0]
+TABLE "56_terms"________________________________________[ROWS:     3]
+TABLE "56_usermeta"_____________________________________[ROWS:    41]
+TABLE "56_users"________________________________________[ROWS:     2]
+
+INSERT DATA RUNTIME: 0.2020 sec.
+STEP-2 COMPLETE @ 07:03:43 - RUNTIME: 0.2020 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/sites/30a/b/bc4f52052a/public_html REPLACE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://pnsignature-cloud.ibrave.host REPLACE: http://localhost/faith_arts [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 07:03:43
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Deploy/Database/DbCleanup.php|LINE:95]
+CLEAN OPTIONS [56_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    29]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "56_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "56_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sites/30a/b/bc4f52052a/public_html" ========> "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+	SEARCH[urlnd]  2:"https://pnsignature-cloud.ibrave.host" ===========> "http://localhost/faith_arts"
+	CHUNK ACTION: CURRENT [search_replace][56_comments][0]
+
+EVALUATE TABLE: "56_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "56_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "56_options"______________________________________[ROWS:   175][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sites/30a/b/bc4f52052a/public_html" ========> "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+	SEARCH[urlnd]  2:"https://pnsignature-cloud.ibrave.host" ===========> "http://localhost/faith_arts"
+	CHUNK ACTION: CURRENT [search_replace][56_options][0]
+
+EVALUATE TABLE: "56_postmeta"_____________________________________[ROWS:   402][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sites/30a/b/bc4f52052a/public_html" ========> "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+	SEARCH[urlnd]  2:"https://pnsignature-cloud.ibrave.host" ===========> "http://localhost/faith_arts"
+	CHUNK ACTION: CURRENT [search_replace][56_postmeta][0]
+
+EVALUATE TABLE: "56_posts"________________________________________[ROWS:   179][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sites/30a/b/bc4f52052a/public_html" ========> "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+	SEARCH[urlnd]  2:"https://pnsignature-cloud.ibrave.host" ===========> "http://localhost/faith_arts"
+	CHUNK ACTION: CURRENT [search_replace][56_posts][0]
+
+EVALUATE TABLE: "56_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "56_terms"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sites/30a/b/bc4f52052a/public_html" ========> "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+	SEARCH[urlnd]  2:"https://pnsignature-cloud.ibrave.host" ===========> "http://localhost/faith_arts"
+	CHUNK ACTION: CURRENT [search_replace][56_terms][0]
+
+EVALUATE TABLE: "56_term_relationships"___________________________[ROWS:     8][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "56_term_taxonomy"________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sites/30a/b/bc4f52052a/public_html" ========> "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+	SEARCH[urlnd]  2:"https://pnsignature-cloud.ibrave.host" ===========> "http://localhost/faith_arts"
+	CHUNK ACTION: CURRENT [search_replace][56_term_taxonomy][0]
+
+EVALUATE TABLE: "56_usermeta"_____________________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sites/30a/b/bc4f52052a/public_html" ========> "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+	SEARCH[urlnd]  2:"https://pnsignature-cloud.ibrave.host" ===========> "http://localhost/faith_arts"
+	CHUNK ACTION: CURRENT [search_replace][56_usermeta][0]
+
+EVALUATE TABLE: "56_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sites/30a/b/bc4f52052a/public_html" ========> "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+	SEARCH[urlnd]  2:"https://pnsignature-cloud.ibrave.host" ===========> "http://localhost/faith_arts"
+	CHUNK ACTION: CURRENT [search_replace][56_users][0]
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:806 	|	 Cells:6654 
+UPDATED:	Tables:4 	|	 Rows:189 	|	 Cells:236 
+ERRORS:		0 
+RUNTIME:	0.111300 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-config.php
+New htaccess file created:/Applications/XAMPP/xamppfiles/htdocs/faith_arts/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""faith_arts""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/Applications/XAMPP/xamppfiles/htdocs/faith_arts"
+--------------------------------------
+[PHP ERR][E_WARNING] MSG:chmod(): Operation not permitted [CODE:2|FILE:/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/libs/Snap/SnapIO.php|LINE:835]
+CHMOD FAIL: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/ PERMS: 0755
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:03:43 - RUNTIME: 0.2155 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[FATAL ERROR] Fatal error on WordPress login tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-login.php
+EXCEPTION Failed opening required '/usr/share/php/wp-stack-cache.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php')
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-settings.php[398]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/wp_test_script_5d0e941-30185526.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[FATAL ERROR] Fatal error on WordPress login tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-login.php
+EXCEPTION Failed opening required '/usr/share/php/wp-stack-cache.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php')
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-settings.php[398]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/wp_test_script_5d0e941-30185526.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[ERROR] Fatal error on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/index.php
+EXCEPTION Failed opening required '/usr/share/php/wp-stack-cache.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php')
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-settings.php[398]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/index.php[17]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/wp_test_script_5d0e941-30185526.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/index.php
+E_WARNING require(/usr/share/php/wp-stack-cache.php): Failed to open stream: No such file or directory
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-settings.php[398]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/index.php[17]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/wp_test_script_5d0e941-30185526.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-login.php
+E_WARNING require(/usr/share/php/wp-stack-cache.php): Failed to open stream: No such file or directory
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-settings.php[398]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/wp_test_script_5d0e941-30185526.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+====================================
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.05154]  MESSAGE:END RENDER PAGE
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[FATAL ERROR] Fatal error on WordPress login tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-login.php
+EXCEPTION Failed opening required '/usr/share/php/wp-stack-cache.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php')
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-settings.php[398]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/wp_test_script_5d0e941-30185526.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[ERROR] Fatal error on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/index.php
+EXCEPTION Failed opening required '/usr/share/php/wp-stack-cache.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php')
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-settings.php[398]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/index.php[17]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/wp_test_script_5d0e941-30185526.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/index.php
+E_WARNING require(/usr/share/php/wp-stack-cache.php): Failed to open stream: No such file or directory
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-settings.php[398]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/index.php[17]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/wp_test_script_5d0e941-30185526.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-login.php
+E_WARNING require(/usr/share/php/wp-stack-cache.php): Failed to open stream: No such file or directory
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	--- TRACE ---
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/mu-plugins/wp-stack-cache.php[31]
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-settings.php[398]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-config.php[88]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/faith_arts/wp-content/wp_test_script_5d0e941-30185526.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+====================================
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/faith_arts/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.06800]  MESSAGE:END RENDER PAGE
